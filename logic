@@ -1,0 +1,30 @@
+
+logic in order to change the color of the male and female card when tapped .
+  // Color maleCardColour = inactiveCardColor;
+  // Color femaleCardColour = inactiveCardColor;
+
+  // void updateColour(Gender selectedGender) {
+  //   if (selectedGender == Gender.male) {
+  //     if (maleCardColour == inactiveCardColor) {
+  //       maleCardColour = activeCardColor;
+  //       femaleCardColour = inactiveCardColor;
+  //     } else {
+  //       maleCardColour = inactiveCardColor;
+  //     }
+  //   }
+  //   if (selectedGender == Gender.female) {
+  //     if (femaleCardColour == inactiveCardColor) {
+  //       femaleCardColour = activeCardColor;
+  //       maleCardColour = inactiveCardColor;
+  //     } else {
+  //       femaleCardColour = inactiveCardColor;
+  //     }
+  //   }
+  // }
+
+  () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => ReasultPage()),
+          );
+        },
